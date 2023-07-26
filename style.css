@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --main-color: #b92b27;
+    --main-color-darker:#941e1a;
+    --white:#ffffff;
+    --dropdown-radius: 50px;
+}
+.text-main-color {
+    color: var(--main-color);
+}
+.border-main-color {
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: var(--main-color);
+}
+.bg-main-color{
+    background-color: var(--main-color);  
+}
+.nav-item svg {
+    height: 45px;
+    width: 45px;
+    padding: 6px;
+    margin: 4px;
+}
+.search-icon{
+    padding-left: 25px;
+    background: url(./src/search.png) no-repeat ;
+    background-size: 20px;
+}
+.profile{
+    width: 45px;
+    height: 45px;
+    padding: 7px;
+}
+#button1{
+    border-top-left-radius: var(--dropdown-radius);
+    border-bottom-left-radius: var(--dropdown-radius);
+    color: white;
+}
+#button2{
+    border-top-right-radius: var(--dropdown-radius);
+    border-bottom-right-radius: var(--dropdown-radius);
+    border-left-style: solid;
+    border-left-color: rgb(83,83,83);
+    border-width: 1px;
+    color: white;
+}  
+
+.bg-second-color{
+    background-color: rgb(233,233,233);
+}
+#left-list{
+    margin-left: 20px;
+}
+#left-list a{
+    text-decoration: none;
+    padding: 5px;
+    color: gray;
+    font-size: 13px;
+}
+#left-list img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.border-gray{
+    border-style: solid;
+    border-color: rgb(221,221,221);
+    border-width: 1px ;
+}
+.text-gray-dark{
+    color: rgb(117,117,117);
+}
+.hover-dark:hover{
+    background-color: rgb(233,233,233);
+    border-radius: 5px;
+}
+.post-profile{
+    width: 55px;
+    height: 55px;
+    padding: 7px;
+}
+.post-link{
+    color: black;
+}
+.post-link:hover{
+    color: black;
+}
+.post-button:hover{
+    background-color: rgb(238,238,238);
+}
+.left-button{
+    border-bottom-left-radius:var(--dropdown-radius) ;
+    border-top-left-radius:var(--dropdown-radius) ;
+}
+.right-button{
+    border-bottom-right-radius:var(--dropdown-radius) ;
+    border-top-right-radius:var(--dropdown-radius) ;
+}
+.black-color{
+    color: #000;
+}
